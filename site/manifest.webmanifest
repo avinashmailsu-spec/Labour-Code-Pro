@@ -1,0 +1,36 @@
+{
+  "id": "./",
+  "name": "LabourCode Pro \u2014 Modern Legal Studio",
+  "short_name": "LabourCode Pro",
+  "description": "Read all four original Indian Labour Codes offline, learn interactively and test your knowledge.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f5f7fb",
+  "theme_color": "#f5f7fb",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

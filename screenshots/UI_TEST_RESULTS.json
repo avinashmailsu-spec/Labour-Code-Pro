@@ -1,0 +1,74 @@
+[
+  {
+    "width": 320,
+    "height": 760,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  },
+  {
+    "width": 360,
+    "height": 800,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  },
+  {
+    "width": 768,
+    "height": 1000,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  },
+  {
+    "width": 1280,
+    "height": 900,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "horizontalOverflowPx": 0,
+    "jsErrors": 0,
+    "bottomNavPresent": true,
+    "search": "passed",
+    "challenge": "passed",
+    "theme": "passed",
+    "acts": "4/4",
+    "visualGuides": 8
+  }
+]

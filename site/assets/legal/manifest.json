@@ -1,0 +1,66 @@
+{
+  "edition": "Original Acts as supplied by the user; not a consolidated amended version",
+  "developer": "Avinash Ekka",
+  "source": "Four supplied Gazette of India PDF files",
+  "codes": {
+    "wages": {
+      "title": "Code on Wages, 2019",
+      "act": "29 of 2019",
+      "filename": "THE CODE ON WAGES, 2019.pdf",
+      "pdf_asset": "assets/acts/wages.pdf",
+      "text_asset": "assets/legal/wages.json",
+      "pages": 29,
+      "sections": 69,
+      "chapters": 9,
+      "schedules_indexed": 0,
+      "bytes": 237003,
+      "sha256": "0d17b967a528da2d6b827655ba9a701dc15d78b4d4f58b9bbc21d6789a680c85",
+      "extracted_characters": 95167
+    },
+    "industrial": {
+      "title": "Industrial Relations Code, 2020",
+      "act": "35 of 2020",
+      "filename": "The Industrial Relations Code, 2020.pdf",
+      "pdf_asset": "assets/acts/industrial.pdf",
+      "text_asset": "assets/legal/industrial.json",
+      "pages": 56,
+      "sections": 104,
+      "chapters": 14,
+      "schedules_indexed": 3,
+      "bytes": 454780,
+      "sha256": "43cadbd9ed08dd00dfba43571253eaf63d655f9fc411df5b9a1059de8d40ce09",
+      "extracted_characters": 192407
+    },
+    "security": {
+      "title": "Code on Social Security, 2020",
+      "act": "36 of 2020",
+      "filename": "The Code on Social Security, 2020.pdf",
+      "pdf_asset": "assets/acts/security.pdf",
+      "text_asset": "assets/legal/security.json",
+      "pages": 116,
+      "sections": 164,
+      "chapters": 14,
+      "schedules_indexed": 7,
+      "bytes": 616749,
+      "sha256": "975235e57b8b8c3f4a09f6c9f0dbb2bfc663c15faf3715108ea33113ef565be7",
+      "extracted_characters": 377187
+    },
+    "osh": {
+      "title": "Occupational Safety, Health and Working Conditions Code, 2020",
+      "act": "37 of 2020",
+      "filename": "THE OCCUPATIONAL SAFETY, HEALTH AND WORKING CONDITIONS CODE, 2020.pdf",
+      "pdf_asset": "assets/acts/osh.pdf",
+      "text_asset": "assets/legal/osh.json",
+      "pages": 86,
+      "sections": 143,
+      "chapters": 14,
+      "schedules_indexed": 3,
+      "bytes": 531293,
+      "sha256": "9ce8f68b88f725fbce4fadfb45d9ddc3ed7a5f59d92a2ebd3d5bd7ebb1c83891",
+      "extracted_characters": 270637
+    }
+  },
+  "total_pages": 287,
+  "total_sections": 480,
+  "all_pdfs_embedded": true
+}

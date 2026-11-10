@@ -1,0 +1,77 @@
+/* LabourCode Pro 4.1 Mobile — premium responsive reading and native touch navigation */
+:root{--android-teal:#087f79}
+button,a,input,select,textarea{touch-action:manipulation}
+.android-bottom-nav{display:none}
+.android-menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.android-menu-grid button{justify-content:flex-start;text-align:left;min-height:60px;font-size:13px}
+.android-pdf-launch{padding:29px;background:linear-gradient(135deg,var(--panel),var(--panel2));margin:20px 0;border-left:4px solid var(--teal)}
+.android-pdf-launch .btn{margin-top:17px}
+.android-pdf-launch h2{font-size:25px;line-height:1.4}
+@media(max-width:920px){
+ .layout{display:block;grid-template-columns:1fr}
+ .sidebar{display:none!important}
+ .main{width:100%;min-width:0}
+ .topbar{height:66px;padding:0 18px;background:var(--panel);box-shadow:0 3px 15px #1e446112}
+ .breadcrumb{font-size:12px;max-width:50%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .topbar .top-right .chip{display:none}
+ .topbar .top-right .top-developer{display:none}
+ .topbar .top-right [data-action="exit"]{display:none}
+ .workspace{padding:23px 18px 115px;max-width:950px}
+ .android-bottom-nav{position:fixed;display:flex;bottom:0;left:0;right:0;z-index:150;min-height:73px;padding:8px 9px max(10px,env(safe-area-inset-bottom));background:var(--panel);border-top:1px solid var(--border);box-shadow:0 -8px 30px #13314c20;justify-content:space-between;gap:4px}
+ .android-bottom-nav button{display:flex;flex:1;min-width:0;align-items:center;justify-content:center;gap:5px;flex-direction:column;color:var(--muted);border:0;border-radius:13px;background:transparent;font-size:11px;font-weight:730;padding:7px 0}
+ .android-bottom-nav button.active{background:color-mix(in srgb,var(--teal) 12%,var(--panel));color:var(--teal)}
+ .android-bottom-nav button .icon{stroke-width:2.05}
+ .editorial-hero{min-height:0;grid-template-columns:1fr!important;border-radius:23px}
+ .editorial-hero-text{padding:29px 25px!important;min-width:0}
+ .editorial-hero h2{font-size:clamp(29px,6vw,42px);letter-spacing:-.9px;margin:15px 0}
+ .editorial-hero p{font-size:15px;line-height:1.65}
+ .hero-photo{height:230px!important;min-height:230px!important}
+ .hero-photo-caption b{font-size:18px}
+ .heading{font-size:clamp(27px,6vw,38px);line-height:1.24;letter-spacing:-.6px}
+ .subhead{font-size:15px;line-height:1.7}
+ .section-head{margin:30px 0 16px;gap:10px;flex-wrap:wrap}
+ .section-head h2{font-size:24px}
+ .law-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+ .law-art{height:155px}
+ .law-content{padding:19px}.law-content h3{font-size:18px}.law-content p{font-size:13px}
+ .stats,.premium-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .stat{padding:18px}.stat strong{font-size:30px}
+ .split,.reader-grid,.grid-2,.grid-3{grid-template-columns:1fr}
+ .reader-side{display:grid;grid-template-columns:1fr!important}
+ .card{padding:19px}
+ .lesson-body{padding:25px 22px}
+ .lesson-body p{font-size:17px;line-height:1.9}
+ .lesson-body .summary{font-size:18px}
+ .reader-intro{display:block}.reader-actions{margin-top:15px}.reader-name .heading{font-size:28px}
+ .btn{min-height:47px;font-size:13px;max-width:100%;white-space:normal}
+ .field input,.field select,.field textarea,input.input,select,textarea{font-size:16px!important;min-height:45px}
+ .topbar .icon-btn{min-width:38px}
+ .modal-backdrop{padding:10px 12px 92px;align-items:flex-end}
+ .modal{max-height:79vh;padding:21px;border-radius:19px}
+ .term-network{padding:24px}.term-node-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .architecture-study{padding:24px}.architecture-key{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .visual-panel{padding:21px}.visual-hero{grid-template-columns:1fr;padding:25px}
+ .visual-wheel{min-height:250px}.barchart .barrow{grid-template-columns:85px 1fr 46px}
+ .statute-summary{display:flex;flex-direction:column;align-items:start;padding:24px;gap:15px}
+ .topbar .avatar{width:35px;height:35px;font-size:10px}
+ .workspace-footer{padding-bottom:30px;gap:8px}
+}
+@media(max-width:480px){
+ .workspace{padding:18px 14px 110px}
+ .law-grid{grid-template-columns:1fr}
+ .law-art{height:196px}
+ .law-content h3{font-size:19px}
+ .topbar .top-right{gap:7px}
+ .hero-photo{height:200px!important;min-height:200px!important}
+ .stat strong{font-size:28px}
+ .architecture-bar small{font-size:9px}
+ .term-node{min-height:65px}
+ .welcome-strip{flex-direction:column;align-items:start}
+ .action{flex-wrap:wrap}
+ .android-menu-grid{grid-template-columns:1fr 1fr}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+/* Avoid stale composited layers in Android WebView after SPA route changes. */
+@media(max-width:920px){.workspace.reveal{animation:none!important;opacity:1!important;transform:none!important}}
+
+@media(max-width:920px){.breadcrumb{display:flex;flex-direction:column;gap:2px;max-width:none}.breadcrumb strong{font-size:15px;color:var(--ink);letter-spacing:-.2px}.breadcrumb small{font-size:10px;color:var(--teal);font-weight:750}.topbar{height:70px}}

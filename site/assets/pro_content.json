@@ -1,0 +1,264 @@
+{
+  "version": "3.0.0",
+  "reviewDate": "2026-11-08",
+  "states": [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal",
+    "Andaman and Nicobar Islands",
+    "Chandigarh",
+    "Dadra and Nagar Haveli and Daman and Diu",
+    "Delhi",
+    "Jammu and Kashmir",
+    "Ladakh",
+    "Lakshadweep",
+    "Puducherry"
+  ],
+  "oldActs": {
+    "wages": [
+      "Payment of Wages Act, 1936",
+      "Minimum Wages Act, 1948",
+      "Payment of Bonus Act, 1965",
+      "Equal Remuneration Act, 1976"
+    ],
+    "industrial": [
+      "Trade Unions Act, 1926",
+      "Industrial Employment (Standing Orders) Act, 1946",
+      "Industrial Disputes Act, 1947"
+    ],
+    "security": [
+      "Employees’ Compensation Act, 1923",
+      "Employees’ State Insurance Act, 1948",
+      "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952",
+      "Employment Exchanges (Compulsory Notification of Vacancies) Act, 1959",
+      "Maternity Benefit Act, 1961",
+      "Payment of Gratuity Act, 1972",
+      "Cine-Workers Welfare Fund Act, 1981",
+      "Building and Other Construction Workers Welfare Cess Act, 1996",
+      "Unorganised Workers’ Social Security Act, 2008"
+    ],
+    "osh": [
+      "Factories Act, 1948",
+      "Plantations Labour Act, 1951",
+      "Mines Act, 1952",
+      "Working Journalists and Other Newspaper Employees (Conditions of Service) and Miscellaneous Provisions Act, 1955",
+      "Working Journalists (Fixation of Rates of Wages) Act, 1958",
+      "Motor Transport Workers Act, 1961",
+      "Beedi and Cigar Workers (Conditions of Employment) Act, 1966",
+      "Contract Labour (Regulation and Abolition) Act, 1970",
+      "Sales Promotion Employees (Conditions of Service) Act, 1976",
+      "Inter-State Migrant Workmen (Regulation of Employment and Conditions of Service) Act, 1979",
+      "Cine Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981",
+      "Dock Workers (Safety, Health and Welfare) Act, 1986",
+      "Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996"
+    ]
+  },
+  "updates": [
+    {
+      "date": "2025-11-21",
+      "title": "Four Labour Codes brought into effect",
+      "description": "Central commencement of the four Codes effective 21 November 2025.",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=2&reg=48",
+      "kind": "Implementation"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Central Rules, 2026 notified",
+      "description": "Ministry communications confirm Central Rules notified 8 May 2026. Consult individual rule texts, subsequent notifications and corrigenda.",
+      "source": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2316701&lang=2&reg=48",
+      "kind": "Rules"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Offline legal content reviewed",
+      "description": "App editorial snapshot date; this is not a government notification. Later legal developments are not automatically loaded.",
+      "source": "https://www.labour.gov.in/offerings/schemes-and-services/details/labour-codes-gzNzQzMtQWa",
+      "kind": "Editorial"
+    }
+  ],
+  "checklist": [
+    {
+      "code": "wages",
+      "title": "Document correct wage periods and timely payment",
+      "detail": "Review payment timelines under the Code on Wages and applicable rules.",
+      "threshold": "all"
+    },
+    {
+      "code": "wages",
+      "title": "Check notified minimum wage for each category",
+      "detail": "Check appropriate government, skill category, zone and latest notification.",
+      "threshold": "all"
+    },
+    {
+      "code": "wages",
+      "title": "Review the statutory wages definition and 50% exclusions",
+      "detail": "Review section 2(y) and all relevant component classifications.",
+      "threshold": "all"
+    },
+    {
+      "code": "wages",
+      "title": "Check overtime eligibility, hours and supporting records",
+      "detail": "Review applicable Code and OSH rules for role/establishment.",
+      "threshold": "all"
+    },
+    {
+      "code": "wages",
+      "title": "Review bonus eligibility and limits",
+      "detail": "Verify Code on Wages eligibility, wage ceilings and accounting conditions.",
+      "threshold": "all"
+    },
+    {
+      "code": "wages",
+      "title": "Monitor lawful deductions and pay slips",
+      "detail": "Inspect deductions, wage records and applicable rules.",
+      "threshold": "all"
+    },
+    {
+      "code": "industrial",
+      "title": "Review worker classification and covered establishments",
+      "detail": "Distinguish workers and employees as legally defined.",
+      "threshold": "all"
+    },
+    {
+      "code": "industrial",
+      "title": "Review standing orders if industrial establishment is covered",
+      "detail": "The 300-worker reference requires scope, establishment and rules checks.",
+      "threshold": "300"
+    },
+    {
+      "code": "industrial",
+      "title": "Set up a grievance redressal mechanism where required",
+      "detail": "Check headcount, worker category and Code/Rules requirements.",
+      "threshold": "20"
+    },
+    {
+      "code": "industrial",
+      "title": "Verify union negotiation and recognition process",
+      "detail": "Check registered unions, member support and legal procedures.",
+      "threshold": "all"
+    },
+    {
+      "code": "industrial",
+      "title": "Maintain dispute-management and consultation records",
+      "detail": "Use applicable dispute resolution procedure and time limits.",
+      "threshold": "all"
+    },
+    {
+      "code": "industrial",
+      "title": "Review retrenchment/closure approvals when applicable",
+      "detail": "Do not apply a threshold without checking the chapter and establishment.",
+      "threshold": "300"
+    },
+    {
+      "code": "security",
+      "title": "Check EPF applicability and contribution records",
+      "detail": "20 is an important general threshold; conditions and notifications vary.",
+      "threshold": "20"
+    },
+    {
+      "code": "security",
+      "title": "Check ESI applicability and insurable employees",
+      "detail": "Verify latest threshold, wages ceiling, area and hazardous establishment rules.",
+      "threshold": "10"
+    },
+    {
+      "code": "security",
+      "title": "Review gratuity eligibility and fixed-term treatment",
+      "detail": "General and fixed-term eligibility conditions should not be conflated.",
+      "threshold": "all"
+    },
+    {
+      "code": "security",
+      "title": "Review maternity benefits and protected leave",
+      "detail": "Check applicable chapter and establishment coverage.",
+      "threshold": "all"
+    },
+    {
+      "code": "security",
+      "title": "Review statutory employee compensation exposure",
+      "detail": "A group personal accident policy is not automatically a statutory substitute.",
+      "threshold": "all"
+    },
+    {
+      "code": "security",
+      "title": "Review gig/platform or unorganised-worker duties where relevant",
+      "detail": "Applicable schemes and aggregator provisions must be checked.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Issue employment appointment letters where applicable",
+      "detail": "Verify form, timelines and sector-specific requirements.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Maintain occupational health and safety arrangements",
+      "detail": "Industry, hazards and thresholds alter obligations.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Check working time, breaks, holidays and leave",
+      "detail": "Verify statutory eligibility and relevant state/central rules.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Review annual health check-up obligations",
+      "detail": "Check age/worker category and notified rules.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Review contract labour registration and licensing applicability",
+      "detail": "Check threshold, notified rules and principal employer responsibilities.",
+      "threshold": "50"
+    },
+    {
+      "code": "osh",
+      "title": "Review inter-state migrant-worker protections",
+      "detail": "Coverage may include self-migrated workers; verify conditions.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Review consent and safeguards for night work by women",
+      "detail": "Do not treat permission as unconditional; verify consent and safeguards.",
+      "threshold": "all"
+    },
+    {
+      "code": "osh",
+      "title": "Review accident notifications, registers and safety records",
+      "detail": "Applicable processes, registers and notifications vary.",
+      "threshold": "all"
+    }
+  ],
+  "official": "https://www.labour.gov.in/offerings/schemes-and-services/details/labour-codes-gzNzQzMtQWa",
+  "stateNotice": "Live state-rule status is not certified in this offline app. Always check the applicable State Gazette, official Labour Department, original legal text and current notification."
+}
